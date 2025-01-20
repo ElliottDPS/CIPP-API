@@ -23,11 +23,11 @@ jobs:
         uses: actions/checkout@v4
       
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1E5517B1DAED42C89A6AD7208A5BCCD0 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_4D0EB4E5C1504C3C95FA40C6DF86A398 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_EA59B1E698694B0C8C4E31810348703D }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C05D4CD3343E422296CBC16EB2EC3337 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_665F8B6B4102439CA94FDF2F55D2F690 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_9362C84814DA477F9ECEC3A44FDA7640 }}
 
       - name: 'Run Azure Functions Action'
         uses: Azure/functions-action@v1
